@@ -3,12 +3,13 @@ import React, { useState } from 'react'
 // access to the Redux store to allow component to send actions when updating store
 import { useDispatch } from 'react-redux'
 import { addTimer } from '../actions'
+import './NewTimer.css'
 
 export default function NewTimer() {
   const [ name, setName ] = useState('')
   const dispatch = useDispatch()
   return (
-    <div>
+    <div className="NewTimer">
       <input
         type='text'
         placeholder='New Timer Name'
