@@ -1,11 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import { createStore } from 'redux';
+import { Provider } from 'react-redux';
+import reducers from './reducers';
+const store = createStore(reducers);
 
 function App() {
   return (
-    <div className="App">
-      <Timer />
-    </div>
+    <Provider store={store}>
+    <h1>Timers</h1>
+  </Provider>
   );
 }
 
