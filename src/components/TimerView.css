@@ -9,9 +9,9 @@
 
 .allViews {
   position: relative;
-  left: 770px;
-  top: -320px;
-  background-color: rgb(249, 252, 247);
+  left: 830px;
+  top: -400px;
+  /* background-color: rgba(174, 233, 56, 0.241); */
 }
 
 .TimerView > h1 {
@@ -20,31 +20,34 @@
   color:white;
   padding: 20px;
   border-radius: 20px;
-  background-color: rgb(164, 223, 250);
+  /* background-color: rgb(164, 223, 250); */
+  background-color: tomato;
   margin: 15px;
-  /* position: relative;
-  left: 7px; */
+  position: relative;
+  top: 37px;
 }
 
 .TimerView > h2 {
   font-size: 33px;
   color:white;
   border-radius: 0.5rem;
-  background-color: rgb(255, 157, 191);
+  /* background-color: rgb(255, 157, 191); */
+  background-color: tomato;
   padding: 30px;
   margin: 0px;
+  position: relative;
+  top: 30px;
 }
 
 .TimerView > button {
   padding: 0.25rem 0.5rem;
   border-radius: 0.5rem;
-  background-color: tomato;
-  /* border: rgb(255, 166, 150) solid; */
-  color: #fff;
+  color: white;
+  background-color: rgb(250, 200, 38);
   font-size: 1.5em;
   font-weight: bold;
   padding: 10px;
   margin: 5px;
   position: relative;
-  left: 10px;
+  top: 30px;
 }
