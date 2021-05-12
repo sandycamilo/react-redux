@@ -3,8 +3,8 @@
   flex-direction: column;
   align-items: center;
   width: 600px;
-  /* border: rgb(245, 198, 198) solid 2px; */
   margin: 3px;
+  background-color: #8ea2f1;
 }
 
 .allViews {
@@ -16,37 +16,37 @@
 
 .TimerView > h1 {
   font-variant-numeric: tabular-nums;
-  font-size: 30px;
-  color:white;
-  padding: 20px;
+  font-size: 100px;
   border-radius: 20px;
+  padding: 20px;
   /* background-color: rgb(164, 223, 250); */
-  background-color: tomato;
+  /* color: rgb(255, 205, 119);*/
+   /* color: tomato; */
+  color: white;
   margin: 15px;
   position: relative;
   top: 37px;
 }
 
 .TimerView > h2 {
-  font-size: 33px;
+  font-size: 80px;
   color:white;
   border-radius: 0.5rem;
   /* background-color: rgb(255, 157, 191); */
-  background-color: tomato;
-  padding: 30px;
   margin: 0px;
   position: relative;
-  top: 30px;
+  top: 50px;
 }
 
-.TimerView > button {
+.buttons > button {
   padding: 0.25rem 0.5rem;
   border-radius: 0.5rem;
-  color: white;
-  background-color: rgb(250, 200, 38);
-  font-size: 1.5em;
+  color: rgb(255, 111, 1);
+  background-color: rgb(255, 220, 106);
+  border: 1px solid rgb(255, 252, 105);
+  font-size: 30px;
   font-weight: bold;
-  padding: 10px;
+  padding: 12px;
   margin: 5px;
   position: relative;
   top: 30px;
