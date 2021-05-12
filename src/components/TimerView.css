@@ -1,29 +1,50 @@
 .TimerView {
-  width: 320px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: baseline;
+  flex-direction: column;
+  align-items: center;
+  width: 600px;
+  /* border: rgb(245, 198, 198) solid 2px; */
+  margin: 3px;
+}
+
+.allViews {
+  position: relative;
+  left: 770px;
+  top: -320px;
+  background-color: rgb(249, 252, 247);
 }
 
 .TimerView > h1 {
-  flex:1;
-  margin: 1rem;
-  text-align: left;
   font-variant-numeric: tabular-nums;
+  font-size: 30px;
+  color:white;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgb(164, 223, 250);
+  margin: 15px;
+  /* position: relative;
+  left: 7px; */
 }
 
 .TimerView > h2 {
-  flex: 1;
+  font-size: 33px;
+  color:white;
+  border-radius: 0.5rem;
+  background-color: rgb(255, 157, 191);
+  padding: 30px;
+  margin: 0px;
 }
 
 .TimerView > button {
   padding: 0.25rem 0.5rem;
   border-radius: 0.5rem;
-  border: 1px solid #000;
-  background-color: #000;
+  background-color: tomato;
+  /* border: rgb(255, 166, 150) solid; */
   color: #fff;
-  font-size: 1rem;
+  font-size: 1.5em;
   font-weight: bold;
-  width: 4rem;
+  padding: 10px;
+  margin: 5px;
+  position: relative;
+  left: 10px;
 }

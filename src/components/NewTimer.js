@@ -12,14 +12,14 @@ export default function NewTimer() {
     <div className="NewTimer">
       <input
         type='text'
-        placeholder='New Timer Name'
+        placeholder='new timer name'
         name='name'
         value={name}
         onChange={(e) => setName(e.target.value)}
         />
       <button
         onClick={() => dispatch(addTimer(name))}
-      >Save</button>
+      >save</button>
     </div>
   )
 }

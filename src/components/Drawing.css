@@ -1,0 +1,29 @@
+.alltimeShapes {
+  position: relative;
+  left: 290px;
+  top: -200px;
+}
+
+.alltimeShapes > .Drawing {
+  width: 100px;
+  height: 50px;
+  padding: 20px;
+}
+
+.drawing {
+  width: 100px;
+  height: 100px;
+  clip-path: url(#svgPath); /* Use the svg below by it's id */
+  overflow: hidden;
+  border-radius: 1em;
+  background-color: rgba(255, 210, 172, 0.214);
+  display: flex;
+  align-items: flex-end;
+}
+
+.drawing > div {
+  width: 100%;
+  height: 70%;
+  background-image: linear-gradient(to top left,tomato,  rgb(255, 39, 147), rgb(255, 180, 40));
+  /* background-image: linear-gradient(to top left, rgb(255, 201, 154), rgba(204, 255, 240, 0.906)); */
+}

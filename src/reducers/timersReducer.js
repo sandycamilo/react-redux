@@ -1,5 +1,5 @@
 // Import all of our actions
-import { NEW_TIMER, TOGGLE_TIMER, UPDATE } from '../actions';
+import { NEW_TIMER, TOGGLE_TIMER, UPDATE, DELETE_TIMER } from '../actions';
 import Timer from '../Timer'
 
 const timersReducer = (state = [], action) => {
@@ -8,6 +8,11 @@ const timersReducer = (state = [], action) => {
       // Add a new timer, return a copy of state
       const name = action.payload.name ? action.payload.name : `Timer ${state.length}`
       return [...state, new Timer(name)]
+
+    case DELETE_TIMER:
+      return state.filter((timer, i) => {
+        return i !== action.payload.index
+      })
 
     case TOGGLE_TIMER:
       // Invert the isRunning property of timer at index, return a copy of state

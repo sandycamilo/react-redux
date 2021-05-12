@@ -14,7 +14,7 @@ store.subscribe(throttle(() => {
   saveState(store.getState())
 }, 1000));
 
-const store = createStore(reducers);
+// const store = createStore(reducers);
 
 let lastUpdateTime = Date.now()
 setInterval(() => {
@@ -28,9 +28,11 @@ function App() {
   return (
     <Provider store={store}>
       <div className="App">
-        <h1>Timers</h1>
-        <NewTimer />
-        <ListTimers />
+      <h1 className="title">timers</h1>
+          <NewTimer />
+        <div className="allTimers">
+          <ListTimers />
+        </div> 
       </div>
     </Provider>
   );
