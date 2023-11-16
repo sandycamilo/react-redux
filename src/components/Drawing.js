@@ -9,7 +9,7 @@ function Drawing(props){
           <div class="drawing">
             <div style={{height: `${height}%`}}></div> 
           </div>
-          <svg width="100px" height="100px">
+          <svg>
             <defs>
               <clipPath id="svgPath">
                 <path fill="#FFFFFF" stroke="#000000" stroke-width="1.5794" stroke-miterlimit="10"

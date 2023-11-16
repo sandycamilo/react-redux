@@ -2,52 +2,32 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 600px;
-  margin: 3px;
-  background-color: #8ea2f1;
+  margin: 1em;
+  background-image: linear-gradient(to top left,rgb(255, 254, 253),  rgb(188, 245, 255), rgba(255, 170, 12, 0.501));
+  height: 260px;
 }
 
 .allViews {
-  position: relative;
-  left: 830px;
-  top: -400px;
-  /* background-color: rgba(174, 233, 56, 0.241); */
+  display: flex;
+  flex-direction: column;
 }
 
 .TimerView > h1 {
-  font-variant-numeric: tabular-nums;
-  font-size: 100px;
-  border-radius: 20px;
-  padding: 20px;
-  /* background-color: rgb(164, 223, 250); */
-  /* color: rgb(255, 205, 119);*/
-   /* color: tomato; */
-  color: white;
-  margin: 15px;
-  position: relative;
-  top: 37px;
+  color: rgb(255, 0, 0);
+  font-size: 3em;
 }
 
 .TimerView > h2 {
-  font-size: 80px;
-  color:white;
-  border-radius: 0.5rem;
-  /* background-color: rgb(255, 157, 191); */
-  margin: 0px;
-  position: relative;
-  top: 50px;
+  color:rgb(237, 3, 3);
+  font-size: 1.5em;
 }
 
 .buttons > button {
-  padding: 0.25rem 0.5rem;
   border-radius: 0.5rem;
-  color: rgb(255, 111, 1);
-  background-color: rgb(255, 220, 106);
-  border: 1px solid rgb(255, 252, 105);
-  font-size: 30px;
-  font-weight: bold;
-  padding: 12px;
-  margin: 5px;
-  position: relative;
-  top: 30px;
+  color: white;
+  background-color: rgb(255, 64, 0);
+  border: 2px solid rgb(255, 64, 0);
+  font-size: 1em;
+  padding: 0.5em;
+  margin: 0.5em;
 }

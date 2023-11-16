@@ -1,19 +1,21 @@
 .alltimeShapes {
   position: relative;
-  left: 300px;
-  top: -200px;
+  left: 25vh;
+  top: -23vh;
+  height: 140px;
+  width: 140px;
 }
 
 .alltimeShapes > .Drawing {
-  width: 100px;
-  height: 50px;
+  width: 10px;
+  height: 20px;
   padding: 20px;
 }
 
 .drawing {
   width: 100px;
-  height: 100px;
-  clip-path: url(#svgPath); /* Use the svg below by it's id */
+  height: 200px;
+  clip-path: url(#svgPath);
   overflow: hidden;
   border-radius: 1em;
   background-color: rgba(247, 122, 20, 0.214);
@@ -25,5 +27,4 @@
   width: 100%;
   height: 70%;
   background-image: linear-gradient(to top left,tomato,  rgb(255, 39, 147), rgb(255, 180, 40));
-  /* background-image: linear-gradient(to top left, rgb(255, 201, 154), rgba(204, 255, 240, 0.906)); */
 }
